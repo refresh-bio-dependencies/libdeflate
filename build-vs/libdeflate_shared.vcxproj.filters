@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\cpu_features.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\cpu_features.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\deflate_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\deflate_decompress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\zlib_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\zlib_decompress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\gzip_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\gzip_decompress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\common_defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\libdeflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\cpu_features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\cpu_features_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\deflate_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\lib_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\cpu_features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\matchfinder_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\bt_matchfinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\deflate_compress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\hc_matchfinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\ht_matchfinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\matchfinder_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\matchfinder_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\decompress_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\decompress_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\adler32_vec_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\adler32_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\adler32_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\zlib_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\crc32_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\crc32_pmull_helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\crc32_pmull_wide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\crc32_multipliers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\crc32_tables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\gzip_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\crc32_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\crc32_pclmul_template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4E4E10CF-61CB-3085-ACA7-D6CE33EC25C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{76143845-0BD6-3785-84F9-05552DC2B2A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
