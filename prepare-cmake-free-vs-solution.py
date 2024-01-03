@@ -149,20 +149,36 @@ for vcxproj_path in vcxproj_paths:
 	print("Fixing", vcxproj_path)
 	remove_cmake_from_vcxproj(vcxproj_path)
 
-	replace_in_file(vcxproj_path, absolute_path, "./")
-	replace_in_file(vcxproj_path, absolute_path_parent, "..")
+	#ugly workaround
+	new_path = "./"
+	new_path_parent = ".."
 
-	replace_in_file(vcxproj_path, absolute_path.replace("\\", "/"), "./")
-	replace_in_file(vcxproj_path, absolute_path_parent.replace("\\", "/"), "..")
+	if vcxproj_path.startswith("programs"):
+		new_path = ".."
+		new_path_parent = "../.."
+
+	replace_in_file(vcxproj_path, absolute_path, new_path)
+	replace_in_file(vcxproj_path, absolute_path_parent, new_path_parent)
+
+	replace_in_file(vcxproj_path, absolute_path.replace("\\", "/"), new_path)
+	replace_in_file(vcxproj_path, absolute_path_parent.replace("\\", "/"), new_path_parent)
 	
 
 for vcxproj_filters_path in vcxproj_filters_paths:
 	print("Fixing", vcxproj_filters_path)
 	remove_cmake_from_vcxproj_filters(vcxproj_filters_path)
 
-	replace_in_file(vcxproj_filters_path, absolute_path, "./")
-	replace_in_file(vcxproj_filters_path, absolute_path_parent, "..")
+	#ugly workaround
+	new_path = "./"
+	new_path_parent = ".."
 
-	replace_in_file(vcxproj_filters_path, absolute_path.replace("\\", "/"), "./")
-	replace_in_file(vcxproj_filters_path, absolute_path_parent.replace("\\", "/"), "..")
+	if vcxproj_path.startswith("programs"):
+		new_path = ".."
+		new_path_parent = "../.."
+
+	replace_in_file(vcxproj_filters_path, absolute_path, new_path)
+	replace_in_file(vcxproj_filters_path, absolute_path_parent, new_path_parent)
+
+	replace_in_file(vcxproj_filters_path, absolute_path.replace("\\", "/"), new_path)
+	replace_in_file(vcxproj_filters_path, absolute_path_parent.replace("\\", "/"), new_path_parent)
 
