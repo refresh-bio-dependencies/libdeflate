@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3DC7A447-FD49-3D4F-825A-9EC054BD8AEF}</ProjectGuid>
+    <ProjectGuid>{0DF64642-6604-30B0-9FFA-1BB593BA2CB1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -248,7 +248,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="./\ZERO_CHECK.vcxproj">
-      <Project>{C776756E-A315-3736-B20B-8ED1FE5B6B72}</Project>
+      <Project>{D3923F0F-DD36-3DAA-BB2E-E5730F947E86}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

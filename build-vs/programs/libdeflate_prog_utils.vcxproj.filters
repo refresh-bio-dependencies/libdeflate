@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="..\programs\prog_util.c">
+    <ClCompile Include="../..\programs\prog_util.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\programs\tgetopt.c">
+    <ClCompile Include="../..\programs\tgetopt.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\common_defs.h">
+    <ClInclude Include="../..\common_defs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{926BFEFE-59C4-3E5A-80EA-02FF4EA2C086}</UniqueIdentifier>
+      <UniqueIdentifier>{CA70067B-B86E-382E-951E-5367613338B2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{23EDC41F-0A03-3A88-BFD3-B87AAFB93C18}</UniqueIdentifier>
+      <UniqueIdentifier>{180969D7-63DD-3D80-B055-CE2D76BAF32B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

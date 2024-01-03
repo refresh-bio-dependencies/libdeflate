@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BAC57177-D68A-3558-A661-1BC2E506C960}</ProjectGuid>
+    <ProjectGuid>{9DA31D3F-C48C-37EE-8A6B-07EF0FF0AB36}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -109,25 +109,25 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ProjectReference Include="./\ZERO_CHECK.vcxproj">
-      <Project>{C776756E-A315-3736-B20B-8ED1FE5B6B72}</Project>
+      <Project>{D3923F0F-DD36-3DAA-BB2E-E5730F947E86}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
     <ProjectReference Include="./\programs\libdeflate-gzip.vcxproj">
-      <Project>{24F5F317-1CA0-304E-8033-3902369D0AB2}</Project>
+      <Project>{10B32B89-B559-30F4-8C73-82724B5726D9}</Project>
       <Name>libdeflate-gzip</Name>
     </ProjectReference>
     <ProjectReference Include="./\programs\libdeflate_prog_utils.vcxproj">
-      <Project>{79EC53CE-E821-30C3-89EF-33558C883ED3}</Project>
+      <Project>{3BD3E392-A846-379B-AEDA-F089B5DE2EEC}</Project>
       <Name>libdeflate_prog_utils</Name>
     </ProjectReference>
     <ProjectReference Include="./\libdeflate_shared.vcxproj">
-      <Project>{FD5D7FB9-50C1-3109-9FE7-2B88A2450F02}</Project>
+      <Project>{792FD44F-189B-3BA0-A802-6D822407E90C}</Project>
       <Name>libdeflate_shared</Name>
     </ProjectReference>
     <ProjectReference Include="./\libdeflate_static.vcxproj">
-      <Project>{3DC7A447-FD49-3D4F-825A-9EC054BD8AEF}</Project>
+      <Project>{0DF64642-6604-30B0-9FFA-1BB593BA2CB1}</Project>
       <Name>libdeflate_static</Name>
     </ProjectReference>
   </ItemGroup>

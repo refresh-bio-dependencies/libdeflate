@@ -1,132 +1,132 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="..\lib\arm\cpu_features.c">
+    <ClCompile Include="../..\lib\arm\cpu_features.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\utils.c">
+    <ClCompile Include="../..\lib\utils.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\x86\cpu_features.c">
+    <ClCompile Include="../..\lib\x86\cpu_features.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\deflate_compress.c">
+    <ClCompile Include="../..\lib\deflate_compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\deflate_decompress.c">
+    <ClCompile Include="../..\lib\deflate_decompress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\adler32.c">
+    <ClCompile Include="../..\lib\adler32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\zlib_compress.c">
+    <ClCompile Include="../..\lib\zlib_compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\zlib_decompress.c">
+    <ClCompile Include="../..\lib\zlib_decompress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\crc32.c">
+    <ClCompile Include="../..\lib\crc32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\gzip_compress.c">
+    <ClCompile Include="../..\lib\gzip_compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\lib\gzip_decompress.c">
+    <ClCompile Include="../..\lib\gzip_decompress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\common_defs.h">
+    <ClInclude Include="../..\common_defs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\libdeflate.h">
+    <ClInclude Include="../..\libdeflate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\arm\cpu_features.h">
+    <ClInclude Include="../..\lib\arm\cpu_features.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\cpu_features_common.h">
+    <ClInclude Include="../..\lib\cpu_features_common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\deflate_constants.h">
+    <ClInclude Include="../..\lib\deflate_constants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\lib_common.h">
+    <ClInclude Include="../..\lib\lib_common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\x86\cpu_features.h">
+    <ClInclude Include="../..\lib\x86\cpu_features.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\arm\matchfinder_impl.h">
+    <ClInclude Include="../..\lib\arm\matchfinder_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\bt_matchfinder.h">
+    <ClInclude Include="../..\lib\bt_matchfinder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\deflate_compress.h">
+    <ClInclude Include="../..\lib\deflate_compress.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\hc_matchfinder.h">
+    <ClInclude Include="../..\lib\hc_matchfinder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\ht_matchfinder.h">
+    <ClInclude Include="../..\lib\ht_matchfinder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\matchfinder_common.h">
+    <ClInclude Include="../..\lib\matchfinder_common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\x86\matchfinder_impl.h">
+    <ClInclude Include="../..\lib\x86\matchfinder_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\decompress_template.h">
+    <ClInclude Include="../..\lib\decompress_template.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\x86\decompress_impl.h">
+    <ClInclude Include="../..\lib\x86\decompress_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\adler32_vec_template.h">
+    <ClInclude Include="../..\lib\adler32_vec_template.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\arm\adler32_impl.h">
+    <ClInclude Include="../..\lib\arm\adler32_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\x86\adler32_impl.h">
+    <ClInclude Include="../..\lib\x86\adler32_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\zlib_constants.h">
+    <ClInclude Include="../..\lib\zlib_constants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\arm\crc32_impl.h">
+    <ClInclude Include="../..\lib\arm\crc32_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\arm\crc32_pmull_helpers.h">
+    <ClInclude Include="../..\lib\arm\crc32_pmull_helpers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\arm\crc32_pmull_wide.h">
+    <ClInclude Include="../..\lib\arm\crc32_pmull_wide.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\crc32_multipliers.h">
+    <ClInclude Include="../..\lib\crc32_multipliers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\crc32_tables.h">
+    <ClInclude Include="../..\lib\crc32_tables.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\gzip_constants.h">
+    <ClInclude Include="../..\lib\gzip_constants.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\x86\crc32_impl.h">
+    <ClInclude Include="../..\lib\x86\crc32_impl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\lib\x86\crc32_pclmul_template.h">
+    <ClInclude Include="../..\lib\x86\crc32_pclmul_template.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{926BFEFE-59C4-3E5A-80EA-02FF4EA2C086}</UniqueIdentifier>
+      <UniqueIdentifier>{CA70067B-B86E-382E-951E-5367613338B2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{23EDC41F-0A03-3A88-BFD3-B87AAFB93C18}</UniqueIdentifier>
+      <UniqueIdentifier>{180969D7-63DD-3D80-B055-CE2D76BAF32B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
