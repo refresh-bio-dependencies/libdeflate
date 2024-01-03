@@ -25,10 +25,10 @@ def replace_in_file(file_path, search_text, new_text):
 build_dir="build-vs"
 
 run_cmd(f"mkdir {build_dir}")
-absolute_path_parent = os.getcwd()
+absolute_path_parent = os.getcwd()[0].upper() + os.getcwd()[1:] # make the dirve letter capital
 os.chdir(build_dir)
 
-absolute_path = os.getcwd()
+absolute_path = os.getcwd()[0].upper() + os.getcwd()[1:] # make the dirve letter capital
 
 print("absolute_path:", absolute_path)
 print("absolute_path_parent:", absolute_path_parent)
