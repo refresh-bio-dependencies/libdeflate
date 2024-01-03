@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2D477EAF-2AFD-3AB8-A52C-3FE40552B8B8}</ProjectGuid>
+    <ProjectGuid>{3DC7A447-FD49-3D4F-825A-9EC054BD8AEF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libdeflate_static.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">deflatestatic</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libdeflate_static.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">deflatestatic</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">./\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libdeflate_static.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">deflatestatic</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">./\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libdeflate_static.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">deflatestatic</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -94,10 +94,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -110,7 +110,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -124,10 +124,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -156,10 +156,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -172,7 +172,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -187,10 +187,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -202,53 +202,53 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\common_defs.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\libdeflate.h" />
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\cpu_features.c">
+    <ClInclude Include="..\common_defs.h" />
+    <ClInclude Include="..\libdeflate.h" />
+    <ClCompile Include="..\lib\arm\cpu_features.c">
       <ObjectFileName>$(IntDir)/lib/arm/cpu_features.c.obj</ObjectFileName>
     </ClCompile>
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\cpu_features.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\cpu_features_common.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\deflate_constants.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\lib_common.h" />
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\utils.c" />
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\cpu_features.c">
+    <ClInclude Include="..\lib\arm\cpu_features.h" />
+    <ClInclude Include="..\lib\cpu_features_common.h" />
+    <ClInclude Include="..\lib\deflate_constants.h" />
+    <ClInclude Include="..\lib\lib_common.h" />
+    <ClCompile Include="..\lib\utils.c" />
+    <ClCompile Include="..\lib\x86\cpu_features.c">
       <ObjectFileName>$(IntDir)/lib/x86/cpu_features.c.obj</ObjectFileName>
     </ClCompile>
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\cpu_features.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\matchfinder_impl.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\bt_matchfinder.h" />
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\deflate_compress.c" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\deflate_compress.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\hc_matchfinder.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\ht_matchfinder.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\matchfinder_common.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\matchfinder_impl.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\decompress_template.h" />
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\deflate_decompress.c" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\decompress_impl.h" />
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\adler32.c" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\adler32_vec_template.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\adler32_impl.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\adler32_impl.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\zlib_constants.h" />
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\zlib_compress.c" />
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\zlib_decompress.c" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\crc32_impl.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\crc32_pmull_helpers.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\arm\crc32_pmull_wide.h" />
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\crc32.c" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\crc32_multipliers.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\crc32_tables.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\gzip_constants.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\crc32_impl.h" />
-    <ClInclude Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\x86\crc32_pclmul_template.h" />
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\gzip_compress.c" />
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\lib\gzip_decompress.c" />
+    <ClInclude Include="..\lib\x86\cpu_features.h" />
+    <ClInclude Include="..\lib\arm\matchfinder_impl.h" />
+    <ClInclude Include="..\lib\bt_matchfinder.h" />
+    <ClCompile Include="..\lib\deflate_compress.c" />
+    <ClInclude Include="..\lib\deflate_compress.h" />
+    <ClInclude Include="..\lib\hc_matchfinder.h" />
+    <ClInclude Include="..\lib\ht_matchfinder.h" />
+    <ClInclude Include="..\lib\matchfinder_common.h" />
+    <ClInclude Include="..\lib\x86\matchfinder_impl.h" />
+    <ClInclude Include="..\lib\decompress_template.h" />
+    <ClCompile Include="..\lib\deflate_decompress.c" />
+    <ClInclude Include="..\lib\x86\decompress_impl.h" />
+    <ClCompile Include="..\lib\adler32.c" />
+    <ClInclude Include="..\lib\adler32_vec_template.h" />
+    <ClInclude Include="..\lib\arm\adler32_impl.h" />
+    <ClInclude Include="..\lib\x86\adler32_impl.h" />
+    <ClInclude Include="..\lib\zlib_constants.h" />
+    <ClCompile Include="..\lib\zlib_compress.c" />
+    <ClCompile Include="..\lib\zlib_decompress.c" />
+    <ClInclude Include="..\lib\arm\crc32_impl.h" />
+    <ClInclude Include="..\lib\arm\crc32_pmull_helpers.h" />
+    <ClInclude Include="..\lib\arm\crc32_pmull_wide.h" />
+    <ClCompile Include="..\lib\crc32.c" />
+    <ClInclude Include="..\lib\crc32_multipliers.h" />
+    <ClInclude Include="..\lib\crc32_tables.h" />
+    <ClInclude Include="..\lib\gzip_constants.h" />
+    <ClInclude Include="..\lib\x86\crc32_impl.h" />
+    <ClInclude Include="..\lib\x86\crc32_pclmul_template.h" />
+    <ClCompile Include="..\lib\gzip_compress.c" />
+    <ClCompile Include="..\lib\gzip_decompress.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\ZERO_CHECK.vcxproj">
-      <Project>{49B96FDF-4271-35D4-94B5-92ECD5FF5625}</Project>
+    <ProjectReference Include="./\ZERO_CHECK.vcxproj">
+      <Project>{C776756E-A315-3736-B20B-8ED1FE5B6B72}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

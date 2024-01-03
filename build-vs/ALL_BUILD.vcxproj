@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3F0DA992-57AC-3A63-8AFF-8D5D19FE9D35}</ProjectGuid>
+    <ProjectGuid>{BAC57177-D68A-3558-A661-1BC2E506C960}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,26 +108,26 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\ZERO_CHECK.vcxproj">
-      <Project>{49B96FDF-4271-35D4-94B5-92ECD5FF5625}</Project>
+    <ProjectReference Include="./\ZERO_CHECK.vcxproj">
+      <Project>{C776756E-A315-3736-B20B-8ED1FE5B6B72}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs\libdeflate-gzip.vcxproj">
-      <Project>{9EA60DAB-B408-35E8-A3A6-F184FEEDA707}</Project>
+    <ProjectReference Include="./\programs\libdeflate-gzip.vcxproj">
+      <Project>{24F5F317-1CA0-304E-8033-3902369D0AB2}</Project>
       <Name>libdeflate-gzip</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs\libdeflate_prog_utils.vcxproj">
-      <Project>{9B414060-B5B9-3E74-9BC1-624E1D2D10CA}</Project>
+    <ProjectReference Include="./\programs\libdeflate_prog_utils.vcxproj">
+      <Project>{79EC53CE-E821-30C3-89EF-33558C883ED3}</Project>
       <Name>libdeflate_prog_utils</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\libdeflate_shared.vcxproj">
-      <Project>{C021F0D3-CBDA-3E01-AF7B-9605FE9A51B8}</Project>
+    <ProjectReference Include="./\libdeflate_shared.vcxproj">
+      <Project>{FD5D7FB9-50C1-3109-9FE7-2B88A2450F02}</Project>
       <Name>libdeflate_shared</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\libdeflate_static.vcxproj">
-      <Project>{2D477EAF-2AFD-3AB8-A52C-3FE40552B8B8}</Project>
+    <ProjectReference Include="./\libdeflate_static.vcxproj">
+      <Project>{3DC7A447-FD49-3D4F-825A-9EC054BD8AEF}</Project>
       <Name>libdeflate_static</Name>
     </ProjectReference>
   </ItemGroup>

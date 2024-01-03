@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9EA60DAB-B408-35E8-A3A6-F184FEEDA707}</ProjectGuid>
+    <ProjectGuid>{24F5F317-1CA0-304E-8033-3902369D0AB2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./\programs\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libdeflate-gzip.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libdeflate-gzip</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./\programs\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libdeflate-gzip.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libdeflate-gzip</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">./\programs\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libdeflate-gzip.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libdeflate-gzip</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">./\programs\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libdeflate-gzip.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libdeflate-gzip</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -102,10 +102,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;HAVE_CONFIG_H;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -118,8 +118,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/nauka/splash/2024-01-03/aaaa/dependencies-libdeflate/build-vs/programs/Debug/libdeflate-gzip.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/nauka/splash/2024-01-03/aaaa/dependencies-libdeflate/build-vs/programs/Debug/libdeflate-gzip.pdb</ProgramDataBaseFile>
+      <ImportLibrary>.//programs/Debug/libdeflate-gzip.lib</ImportLibrary>
+      <ProgramDataBaseFile>.//programs/Debug/libdeflate-gzip.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -142,10 +142,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -158,8 +158,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/nauka/splash/2024-01-03/aaaa/dependencies-libdeflate/build-vs/programs/Release/libdeflate-gzip.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/nauka/splash/2024-01-03/aaaa/dependencies-libdeflate/build-vs/programs/Release/libdeflate-gzip.pdb</ProgramDataBaseFile>
+      <ImportLibrary>.//programs/Release/libdeflate-gzip.lib</ImportLibrary>
+      <ProgramDataBaseFile>.//programs/Release/libdeflate-gzip.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -168,7 +168,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -184,10 +184,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -200,8 +200,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/nauka/splash/2024-01-03/aaaa/dependencies-libdeflate/build-vs/programs/MinSizeRel/libdeflate-gzip.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/nauka/splash/2024-01-03/aaaa/dependencies-libdeflate/build-vs/programs/MinSizeRel/libdeflate-gzip.pdb</ProgramDataBaseFile>
+      <ImportLibrary>.//programs/MinSizeRel/libdeflate-gzip.lib</ImportLibrary>
+      <ProgramDataBaseFile>.//programs/MinSizeRel/libdeflate-gzip.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -210,7 +210,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -225,10 +225,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs;D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>./\programs;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -241,8 +241,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/nauka/splash/2024-01-03/aaaa/dependencies-libdeflate/build-vs/programs/RelWithDebInfo/libdeflate-gzip.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/nauka/splash/2024-01-03/aaaa/dependencies-libdeflate/build-vs/programs/RelWithDebInfo/libdeflate-gzip.pdb</ProgramDataBaseFile>
+      <ImportLibrary>.//programs/RelWithDebInfo/libdeflate-gzip.lib</ImportLibrary>
+      <ProgramDataBaseFile>.//programs/RelWithDebInfo/libdeflate-gzip.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -250,21 +250,21 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\programs\gzip.c" />
+    <ClCompile Include="..\programs\gzip.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\ZERO_CHECK.vcxproj">
-      <Project>{49B96FDF-4271-35D4-94B5-92ECD5FF5625}</Project>
+    <ProjectReference Include="./\ZERO_CHECK.vcxproj">
+      <Project>{C776756E-A315-3736-B20B-8ED1FE5B6B72}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\programs\libdeflate_prog_utils.vcxproj">
-      <Project>{9B414060-B5B9-3E74-9BC1-624E1D2D10CA}</Project>
+    <ProjectReference Include="./\programs\libdeflate_prog_utils.vcxproj">
+      <Project>{79EC53CE-E821-30C3-89EF-33558C883ED3}</Project>
       <Name>libdeflate_prog_utils</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\nauka\splash\2024-01-03\aaaa\dependencies-libdeflate\build-vs\libdeflate_static.vcxproj">
-      <Project>{2D477EAF-2AFD-3AB8-A52C-3FE40552B8B8}</Project>
+    <ProjectReference Include="./\libdeflate_static.vcxproj">
+      <Project>{3DC7A447-FD49-3D4F-825A-9EC054BD8AEF}</Project>
       <Name>libdeflate_static</Name>
     </ProjectReference>
   </ItemGroup>
